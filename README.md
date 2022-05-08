@@ -1,4 +1,4 @@
-#Practices and miscellaneous 
+# Practices and miscellaneous 
 ## programming-paradigm
 Paradigms of Programming language.<br>
 <p>OOP(Object Oriented): analyse wine data using Java</p>
