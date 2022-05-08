@@ -1,0 +1,215 @@
+initialising...
+Init: successfully malloc queue of size 5
+Q #0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+initialising...
+Init: successfully malloc queue of size 5
+Q #1
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+initialising...
+Init: successfully malloc queue of size 5
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+
+Generating processes for PQ...
+New process has priority 1
+PQ: 1, Add: pid 0 into the queue with time 4
+Q #0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #1
+There are 1 processes in total
+#[0]: pid: 0 running time: 4, created time: 1544363211 sec 289931 usec, 1 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+New process has priority 1
+PQ: 1, Add: pid 1 into the queue with time 8
+Q #0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #1
+There are 2 processes in total
+#[0]: pid: 1 running time: 8, created time: 1544363212 sec 290057 usec, 1 priority
+#[1]: pid: 0 running time: 4, created time: 1544363211 sec 289931 usec, 1 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+New process has priority 1
+PQ: 1, Add: pid 2 into the queue with time 4
+Q #0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #1
+There are 3 processes in total
+#[0]: pid: 2 running time: 4, created time: 1544363213 sec 290188 usec, 1 priority
+#[1]: pid: 1 running time: 8, created time: 1544363212 sec 290057 usec, 1 priority
+#[2]: pid: 0 running time: 4, created time: 1544363211 sec 289931 usec, 1 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+New process has priority 0
+PQ: 0, Add: pid 3 into the queue with time 7
+Q #0
+There are 1 processes in total
+#[0]: pid: 3 running time: 7, created time: 1544363214 sec 290411 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #1
+There are 3 processes in total
+#[0]: pid: 2 running time: 4, created time: 1544363213 sec 290188 usec, 1 priority
+#[1]: pid: 1 running time: 8, created time: 1544363212 sec 290057 usec, 1 priority
+#[2]: pid: 0 running time: 4, created time: 1544363211 sec 289931 usec, 1 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+New process has priority 1
+PQ: 1, Add: pid 4 into the queue with time 10
+Q #0
+There are 1 processes in total
+#[0]: pid: 3 running time: 7, created time: 1544363214 sec 290411 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #1
+There are 4 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544363215 sec 290558 usec, 1 priority
+#[1]: pid: 2 running time: 4, created time: 1544363213 sec 290188 usec, 1 priority
+#[2]: pid: 1 running time: 8, created time: 1544363212 sec 290057 usec, 1 priority
+#[3]: pid: 0 running time: 4, created time: 1544363211 sec 289931 usec, 1 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Q #2
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Running the process using PQ...
+
+
+Q: 0, P: 3, C: 1544363214, S: 1544363216, R: 2000.
+Q #0 >>> pid: 3 remain time 7, will be running for 2 sec
+Running: #3 for 2 sec ...
+Q #0 >>> pid: 3 remain time 5, will be running for 2 sec
+Running: #3 for 2 sec ...
+Q #0 >>> pid: 3 remain time 3, will be running for 2 sec
+Running: #3 for 2 sec ...
+Q #0 >>> pid: 3 remain time 1, will be running for 1 sec
+Running: #3 for 1 sec ...
+
+Q: 0, P: 3, C: 1544363214, E: 1544363223, T: 9000.
+
+
+
+Q: 1, P: 4, C: 1544363215, S: 1544363223, R: 8000.
+Q #1 >>> pid: 4 remain time 10, will be running for 2 sec
+Running: #4 for 2 sec ...
+
+
+Q: 1, P: 2, C: 1544363213, S: 1544363225, R: 12001.
+Q #1 >>> pid: 2 remain time 4, will be running for 2 sec
+Running: #2 for 2 sec ...
+
+
+Q: 1, P: 1, C: 1544363212, S: 1544363227, R: 15001.
+Q #1 >>> pid: 1 remain time 8, will be running for 2 sec
+Running: #1 for 2 sec ...
+
+
+Q: 1, P: 0, C: 1544363211, S: 1544363229, R: 18001.
+Q #1 >>> pid: 0 remain time 4, will be running for 2 sec
+Running: #0 for 2 sec ...
+Q #1 >>> pid: 4 remain time 8, will be running for 2 sec
+Running: #4 for 2 sec ...
+Q #1 >>> pid: 2 remain time 2, will be running for 2 sec
+Running: #2 for 2 sec ...
+
+Q: 1, P: 2, C: 1544363213, E: 1544363235, T: 22002.
+
+Q #1 >>> pid: 1 remain time 6, will be running for 2 sec
+Running: #1 for 2 sec ...
+Q #1 >>> pid: 4 remain time 6, will be running for 2 sec
+Running: #4 for 2 sec ...
+Q #1 >>> pid: 1 remain time 6, will be running for 2 sec
+Running: #1 for 2 sec ...
+Q #1 >>> pid: 1 remain time 4, will be running for 2 sec
+Running: #1 for 2 sec ...
+Q #1 >>> pid: 4 remain time 4, will be running for 2 sec
+Running: #4 for 2 sec ...
+Q #1 >>> pid: 1 remain time 4, will be running for 2 sec
+Running: #1 for 2 sec ...
+Q #1 >>> pid: 1 remain time 2, will be running for 2 sec
+Running: #1 for 2 sec ...
+
+Q: 1, P: 1, C: 1544363212, E: 1544363249, T: 37003.
+
+Q #1 >>> pid: 4 remain time 2, will be running for 2 sec
+Running: #4 for 2 sec ...
+
+Q: 1, P: 4, C: 1544363215, E: 1544363251, T: 36002.
+
+Q #1 >>> pid: 1 remain time 2, will be running for 2 sec
+Running: #1 for 2 sec ...
+
+Q: 1, P: 1, C: 1544363212, E: 1544363253, T: 41003.
+
+Average response time: 3600.20 milliseconds
+Average turn around time: 29002.00 milliseconds

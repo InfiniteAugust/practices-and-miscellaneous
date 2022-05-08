@@ -1,0 +1,62 @@
+initialising...
+Init: successfully malloc queue of size 5
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Generating processes for SJF...
+SJF: add first
+Add: pid 0 into the queue with time 4
+There are 1 processes in total
+#[0]: pid: 0 running time: 4, created time: 1544363096 sec 964081 usec, 1 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+SJF: add new element
+Add: pid 1 into the queue with time 8
+There are 2 processes in total
+#[0]: pid: 1 running time: 8, created time: 1544363097 sec 964210 usec, 1 priority
+#[1]: pid: 0 running time: 4, created time: 1544363096 sec 964081 usec, 1 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+SJF: add new element
+Add: pid 2 into the queue with time 4
+There are 3 processes in total
+#[0]: pid: 1 running time: 8, created time: 1544363097 sec 964210 usec, 1 priority
+#[1]: pid: 2 running time: 4, created time: 1544363098 sec 964359 usec, 1 priority
+#[2]: pid: 0 running time: 4, created time: 1544363096 sec 964081 usec, 1 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+SJF: add new element
+Add: pid 3 into the queue with time 7
+There are 4 processes in total
+#[0]: pid: 1 running time: 8, created time: 1544363097 sec 964210 usec, 1 priority
+#[1]: pid: 3 running time: 7, created time: 1544363099 sec 964496 usec, 0 priority
+#[2]: pid: 2 running time: 4, created time: 1544363098 sec 964359 usec, 1 priority
+#[3]: pid: 0 running time: 4, created time: 1544363096 sec 964081 usec, 1 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+SJF: add new element
+Add: pid 4 into the queue with time 10
+There are 5 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544363100 sec 964622 usec, 1 priority
+#[1]: pid: 1 running time: 8, created time: 1544363097 sec 964210 usec, 1 priority
+#[2]: pid: 3 running time: 7, created time: 1544363099 sec 964496 usec, 0 priority
+#[3]: pid: 2 running time: 4, created time: 1544363098 sec 964359 usec, 1 priority
+#[4]: pid: 0 running time: 4, created time: 1544363096 sec 964081 usec, 1 priority
+Running the process using SJF...
+Running: #4 for 4 sec ...
+C: 1544363096, S: 1544363101, E: 1544363105, R: 5000, T: 9000
+Running: #3 for 4 sec ...
+C: 1544363098, S: 1544363105, E: 1544363109, R: 7000, T: 11000
+Running: #2 for 7 sec ...
+C: 1544363099, S: 1544363109, E: 1544363116, R: 10000, T: 17000
+Running: #1 for 8 sec ...
+C: 1544363097, S: 1544363116, E: 1544363124, R: 19000, T: 27001
+Running: #0 for 10 sec ...
+C: 1544363100, S: 1544363124, E: 1544363134, R: 24000, T: 34000
+Average response time: 13000.00 milliseconds
+Average turn around time: 19600.20 milliseconds

@@ -1,0 +1,567 @@
+initialising...
+Init: successfully malloc queue of size 10
+initialising...
+Init: successfully malloc queue of size 10
+initialising...
+Init: successfully malloc queue of size 10
+
+Generate element 1/50, pid: 0, priority: 1
+Add: pid 0 into the queue with time 4
+
+Generate element 2/50, pid: 1, priority: 1
+Add: pid 1 into the queue with time 8
+
+Generate element 3/50, pid: 2, priority: 1
+Add: pid 2 into the queue with time 4
+
+Generate element 4/50, pid: 3, priority: 0
+Add: pid 3 into the queue with time 7
+
+Generate element 5/50, pid: 4, priority: 1
+Add: pid 4 into the queue with time 10
+
+Generate element 6/50, pid: 5, priority: 1
+Add: pid 5 into the queue with time 3
+
+Generate element 7/50, pid: 6, priority: 1
+Add: pid 6 into the queue with time 1
+
+Generate element 8/50, pid: 7, priority: 1
+Add: pid 7 into the queue with time 4
+
+Generate element 9/50, pid: 8, priority: 0
+Add: pid 8 into the queue with time 1
+
+Generate element 10/50, pid: 9, priority: 1
+Add: pid 9 into the queue with time 3
+Remove: pid: 3 from the queue index 1
+Q #0 >>> pid: 3 remain time 7, will be running for 2 sec
+Running: #3 for 2 sec ...
+Remove: pid: 8 from the queue index 0
+
+Generate element 11/50, pid: 10, priority: 2
+Add: pid 3 into the queue with time 5
+Q #0 >>> pid: 8 remain time 1, will be running for 1 sec
+Running: #8 for 1 sec ...
+Add: pid 10 into the queue with time 2
+
+Generate element 12/50, pid: 11, priority: 0
+Add: pid 11 into the queue with time 8
+Remove: pid: 3 from the queue index 1
+Q #0 >>> pid: 3 remain time 5, will be running for 2 sec
+Running: #3 for 2 sec ...
+Remove: pid: 11 from the queue index 0
+Remove: pid: 0 from the queue index 7
+
+Generate element 13/50, pid: 12, priority: 2
+Add: pid 3 into the queue with time 3
+Q #0 >>> pid: 11 remain time 8, will be running for 2 sec
+Running: #11 for 2 sec ...
+Add: pid 11 into the queue with time 6
+Q #1 >>> pid: 0 remain time 4, will be running for 2 sec
+Running: #0 for 2 sec ...
+Add: pid 0 into the queue with time 2
+Add: pid 12 into the queue with time 3
+
+Generate element 14/50, pid: 13, priority: 1
+Add: pid 13 into the queue with time 3
+
+Generate element 15/50, pid: 14, priority: 1
+Add: pid 14 into the queue with time 8
+Remove: pid: 3 from the queue index 1
+Q #0 >>> pid: 3 remain time 3, will be running for 2 sec
+Running: #3 for 2 sec ...
+Remove: pid: 11 from the queue index 0
+Remove: pid: 1 from the queue index 9
+
+Generate element 16/50, pid: 15, priority: 0
+Add: pid 3 into the queue with time 1
+Q #0 >>> pid: 11 remain time 6, will be running for 2 sec
+Running: #11 for 2 sec ...
+Add: pid 11 into the queue with time 4
+Q #1 >>> pid: 1 remain time 8, will be running for 2 sec
+Running: #1 for 2 sec ...
+Add: pid 1 into the queue with time 6
+Add: pid 15 into the queue with time 10
+Remove: pid: 3 from the queue index 2
+Q #0 >>> pid: 3 remain time 1, will be running for 1 sec
+Running: #3 for 1 sec ...
+Remove: pid: 11 from the queue index 1
+Remove: pid: 15 from the queue index 0
+Remove: pid: 2 from the queue index 9
+Q #0 >>> pid: 11 remain time 4, will be running for 2 sec
+Running: #11 for 2 sec ...
+
+Generate element 17/50, pid: 16, priority: 0
+Add: pid 11 into the queue with time 2
+Q #0 >>> pid: 15 remain time 10, will be running for 2 sec
+Running: #15 for 2 sec ...
+Add: pid 15 into the queue with time 8
+Q #1 >>> pid: 2 remain time 4, will be running for 2 sec
+Running: #2 for 2 sec ...
+Add: pid 2 into the queue with time 2
+Add: pid 16 into the queue with time 3
+Remove: pid: 11 from the queue index 2
+Q #0 >>> pid: 11 remain time 2, will be running for 2 sec
+Running: #11 for 2 sec ...
+Remove: pid: 15 from the queue index 1
+Remove: pid: 16 from the queue index 0
+Remove: pid: 4 from the queue index 9
+Q #0 >>> pid: 15 remain time 8, will be running for 2 sec
+Running: #15 for 2 sec ...
+
+Generate element 18/50, pid: 17, priority: 0
+Add: pid 15 into the queue with time 6
+Q #0 >>> pid: 16 remain time 3, will be running for 2 sec
+Running: #16 for 2 sec ...
+Add: pid 16 into the queue with time 1
+Q #1 >>> pid: 4 remain time 10, will be running for 2 sec
+Running: #4 for 2 sec ...
+Add: pid 4 into the queue with time 8
+Add: pid 17 into the queue with time 10
+Remove: pid: 15 from the queue index 2
+Q #0 >>> pid: 15 remain time 6, will be running for 2 sec
+Running: #15 for 2 sec ...
+Remove: pid: 16 from the queue index 1
+Remove: pid: 17 from the queue index 0
+Add: pid 15 into the queue with time 4
+Remove: pid: 15 from the queue index 0
+Q #0 >>> pid: 15 remain time 4, will be running for 2 sec
+Running: #15 for 2 sec ...
+Add: pid 15 into the queue with time 2
+Remove: pid: 15 from the queue index 0
+Q #0 >>> pid: 16 remain time 1, will be running for 1 sec
+Running: #16 for 1 sec ...
+Remove: pid: 5 from the queue index 9
+Q #1 >>> pid: 5 remain time 3, will be running for 2 sec
+Running: #5 for 2 sec ...
+
+Generate element 19/50, pid: 18, priority: 1
+Add: pid 5 into the queue with time 1
+Q #0 >>> pid: 15 remain time 2, will be running for 2 sec
+Running: #15 for 2 sec ...
+Q #0 >>> pid: 17 remain time 10, will be running for 2 sec
+Running: #17 for 2 sec ...
+Add: pid 17 into the queue with time 8
+fail to add element, the array is full
+Remove: pid: 17 from the queue index 0
+Q #0 >>> pid: 17 remain time 8, will be running for 2 sec
+Running: #17 for 2 sec ...
+Remove: pid: 6 from the queue index 9
+
+Generate element 20/50, pid: 19, priority: 1
+Add: pid 17 into the queue with time 6
+Q #1 >>> pid: 6 remain time 1, will be running for 1 sec
+Running: #6 for 1 sec ...
+Add: pid 19 into the queue with time 2
+Remove: pid: 17 from the queue index 0
+Q #0 >>> pid: 17 remain time 6, will be running for 2 sec
+Running: #17 for 2 sec ...
+Remove: pid: 7 from the queue index 9
+Remove: pid: 9 from the queue index 8
+
+Generate element 21/50, pid: 20, priority: 0
+Add: pid 17 into the queue with time 4
+Q #1 >>> pid: 7 remain time 4, will be running for 2 sec
+Running: #7 for 2 sec ...
+Add: pid 7 into the queue with time 2
+Q #1 >>> pid: 9 remain time 3, will be running for 2 sec
+Running: #9 for 2 sec ...
+Add: pid 9 into the queue with time 1
+Add: pid 20 into the queue with time 10
+Remove: pid: 17 from the queue index 1
+Q #0 >>> pid: 17 remain time 4, will be running for 2 sec
+Remove: pid: 20 from the queue index 0
+Running: #17 for 2 sec ...
+Remove: pid: 0 from the queue index 9
+
+Generate element 22/50, pid: 21, priority: 2
+Add: pid 17 into the queue with time 2
+Q #0 >>> pid: 20 remain time 10, will be running for 2 sec
+Running: #20 for 2 sec ...
+Add: pid 20 into the queue with time 8
+Q #1 >>> pid: 0 remain time 2, will be running for 2 sec
+Running: #0 for 2 sec ...
+Add: pid 21 into the queue with time 2
+
+Generate element 23/50, pid: 22, priority: 1
+Add: pid 22 into the queue with time 5
+Remove: pid: 17 from the queue index 1
+Q #0 >>> pid: 17 remain time 2, will be running for 2 sec
+Running: #17 for 2 sec ...
+Remove: pid: 20 from the queue index 0
+Remove: pid: 13 from the queue index 9
+
+Generate element 24/50, pid: 23, priority: 2
+Q #0 >>> pid: 20 remain time 8, will be running for 2 sec
+Running: #20 for 2 sec ...
+Add: pid 20 into the queue with time 6
+Q #1 >>> pid: 13 remain time 3, will be running for 2 sec
+Running: #13 for 2 sec ...
+Add: pid 13 into the queue with time 1
+Add: pid 23 into the queue with time 9
+Remove: pid: 20 from the queue index 0
+Q #0 >>> pid: 20 remain time 6, will be running for 2 sec
+Running: #20 for 2 sec ...
+Remove: pid: 14 from the queue index 9
+
+Generate element 25/50, pid: 24, priority: 0
+Add: pid 20 into the queue with time 4
+Q #1 >>> pid: 14 remain time 8, will be running for 2 sec
+Running: #14 for 2 sec ...
+Add: pid 14 into the queue with time 6
+Add: pid 24 into the queue with time 6
+Remove: pid: 20 from the queue index 1
+Q #0 >>> pid: 20 remain time 4, will be running for 2 sec
+Running: #20 for 2 sec ...
+Remove: pid: 24 from the queue index 0
+Remove: pid: 1 from the queue index 9
+
+Generate element 26/50, pid: 25, priority: 1
+Add: pid 20 into the queue with time 2
+Q #0 >>> pid: 24 remain time 6, will be running for 2 sec
+Running: #24 for 2 sec ...
+Add: pid 24 into the queue with time 4
+Q #1 >>> pid: 1 remain time 6, will be running for 2 sec
+Running: #1 for 2 sec ...
+Add: pid 1 into the queue with time 4
+fail to add element, the array is full
+Remove: pid: 20 from the queue index 1
+Q #0 >>> pid: 20 remain time 2, will be running for 2 sec
+Running: #20 for 2 sec ...
+Remove: pid: 24 from the queue index 0
+Remove: pid: 2 from the queue index 9
+
+Generate element 27/50, pid: 26, priority: 2
+Q #0 >>> pid: 24 remain time 4, will be running for 2 sec
+Running: #24 for 2 sec ...
+Add: pid 24 into the queue with time 2
+Q #1 >>> pid: 2 remain time 2, will be running for 2 sec
+Running: #2 for 2 sec ...
+Add: pid 26 into the queue with time 2
+Remove: pid: 24 from the queue index 0
+Q #0 >>> pid: 24 remain time 2, will be running for 2 sec
+Running: #24 for 2 sec ...
+Remove: pid: 4 from the queue index 8
+
+Generate element 28/50, pid: 27, priority: 0
+Q #1 >>> pid: 4 remain time 8, will be running for 2 sec
+Running: #4 for 2 sec ...
+Add: pid 4 into the queue with time 6
+Add: pid 27 into the queue with time 7
+
+Generate element 29/50, pid: 28, priority: 2
+Add: pid 28 into the queue with time 3
+Remove: pid: 27 from the queue index 0
+Q #0 >>> pid: 27 remain time 7, will be running for 2 sec
+Running: #27 for 2 sec ...
+
+Generate element 30/50, pid: 29, priority: 1
+Add: pid 27 into the queue with time 5
+Add: pid 29 into the queue with time 7
+Remove: pid: 27 from the queue index 0
+Q #0 >>> pid: 27 remain time 5, will be running for 2 sec
+Running: #27 for 2 sec ...
+Remove: pid: 5 from the queue index 9
+Remove: pid: 19 from the queue index 8
+
+Generate element 31/50, pid: 30, priority: 0
+Add: pid 27 into the queue with time 3
+Q #1 >>> pid: 5 remain time 1, will be running for 1 sec
+Running: #5 for 1 sec ...
+Q #1 >>> pid: 19 remain time 2, will be running for 2 sec
+Running: #19 for 2 sec ...
+Add: pid 30 into the queue with time 6
+
+Generate element 32/50, pid: 31, priority: 0
+Add: pid 31 into the queue with time 5
+
+Generate element 33/50, pid: 32, priority: 2
+Add: pid 32 into the queue with time 7
+Remove: pid: 27 from the queue index 2
+Q #0 >>> pid: 27 remain time 3, will be running for 2 sec
+Running: #27 for 2 sec ...
+Remove: pid: 30 from the queue index 1
+Remove: pid: 31 from the queue index 0
+
+Generate element 34/50, pid: 33, priority: 0
+Add: pid 27 into the queue with time 1
+Q #0 >>> pid: 30 remain time 6, will be running for 2 sec
+Running: #30 for 2 sec ...
+Add: pid 30 into the queue with time 4
+Q #0 >>> pid: 31 remain time 5, will be running for 2 sec
+Running: #31 for 2 sec ...
+Add: pid 31 into the queue with time 3
+Add: pid 33 into the queue with time 7
+
+Generate element 35/50, pid: 34, priority: 2
+Add: pid 34 into the queue with time 4
+
+Generate element 36/50, pid: 35, priority: 0
+Add: pid 35 into the queue with time 5
+Remove: pid: 27 from the queue index 4
+Q #0 >>> pid: 27 remain time 1, will be running for 1 sec
+Running: #27 for 1 sec ...
+Remove: pid: 30 from the queue index 3
+Q #0 >>> pid: 30 remain time 4, will be running for 2 sec
+Running: #30 for 2 sec ...
+
+Generate element 37/50, pid: 36, priority: 0
+Add: pid 30 into the queue with time 2
+Add: pid 36 into the queue with time 3
+
+Generate element 38/50, pid: 37, priority: 0
+Add: pid 37 into the queue with time 5
+Remove: pid: 31 from the queue index 5
+Q #0 >>> pid: 31 remain time 3, will be running for 2 sec
+Running: #31 for 2 sec ...
+
+Generate element 39/50, pid: 38, priority: 2
+Add: pid 31 into the queue with time 1
+Add: pid 38 into the queue with time 5
+Remove: pid: 33 from the queue index 5
+Q #0 >>> pid: 33 remain time 7, will be running for 2 sec
+Running: #33 for 2 sec ...
+Remove: pid: 35 from the queue index 4
+Remove: pid: 30 from the queue index 3
+
+Generate element 40/50, pid: 39, priority: 2
+Add: pid 33 into the queue with time 5
+Q #0 >>> pid: 35 remain time 5, will be running for 2 sec
+Running: #35 for 2 sec ...
+Add: pid 35 into the queue with time 3
+Q #0 >>> pid: 30 remain time 2, will be running for 2 sec
+Running: #30 for 2 sec ...
+Add: pid 39 into the queue with time 4
+Remove: pid: 36 from the queue index 4
+Q #0 >>> pid: 36 remain time 3, will be running for 2 sec
+Running: #36 for 2 sec ...
+Remove: pid: 37 from the queue index 3
+Remove: pid: 31 from the queue index 2
+Add: pid 36 into the queue with time 1
+Remove: pid: 33 from the queue index 2
+Q #0 >>> pid: 33 remain time 5, will be running for 2 sec
+Running: #33 for 2 sec ...
+Add: pid 33 into the queue with time 3
+Remove: pid: 35 from the queue index 2
+Q #0 >>> pid: 35 remain time 3, will be running for 2 sec
+Running: #35 for 2 sec ...
+Add: pid 35 into the queue with time 1
+Remove: pid: 36 from the queue index 2
+Q #0 >>> pid: 36 remain time 1, will be running for 1 sec
+Running: #36 for 1 sec ...
+Remove: pid: 33 from the queue index 1
+Q #0 >>> pid: 33 remain time 3, will be running for 2 sec
+Running: #33 for 2 sec ...
+Add: pid 33 into the queue with time 1
+Remove: pid: 35 from the queue index 1
+Q #0 >>> pid: 37 remain time 5, will be running for 2 sec
+Running: #37 for 2 sec ...
+Add: pid 37 into the queue with time 3
+Remove: pid: 33 from the queue index 1
+Q #0 >>> pid: 33 remain time 1, will be running for 1 sec
+Running: #33 for 1 sec ...
+Remove: pid: 37 from the queue index 0
+Q #0 >>> pid: 37 remain time 3, will be running for 2 sec
+Running: #37 for 2 sec ...
+Add: pid 37 into the queue with time 1
+Remove: pid: 37 from the queue index 0
+Q #0 >>> pid: 37 remain time 1, will be running for 1 sec
+Running: #37 for 1 sec ...
+Remove: pid: 7 from the queue index 7
+Q #0 >>> pid: 35 remain time 1, will be running for 1 sec
+Running: #35 for 1 sec ...
+Remove: pid: 9 from the queue index 6
+Q #0 >>> pid: 31 remain time 1, will be running for 1 sec
+Running: #31 for 1 sec ...
+Remove: pid: 22 from the queue index 5
+Q #1 >>> pid: 22 remain time 5, will be running for 2 sec
+Running: #22 for 2 sec ...
+Add: pid 22 into the queue with time 3
+Remove: pid: 13 from the queue index 5
+Q #1 >>> pid: 9 remain time 1, will be running for 1 sec
+Running: #9 for 1 sec ...
+Remove: pid: 14 from the queue index 4
+Q #1 >>> pid: 7 remain time 2, will be running for 2 sec
+Running: #7 for 2 sec ...
+Remove: pid: 1 from the queue index 3
+Q #1 >>> pid: 13 remain time 1, will be running for 1 sec
+Running: #13 for 1 sec ...
+Remove: pid: 4 from the queue index 2
+Q #1 >>> pid: 4 remain time 6, will be running for 2 sec
+Running: #4 for 2 sec ...
+Add: pid 4 into the queue with time 4
+Remove: pid: 29 from the queue index 2
+Q #1 >>> pid: 29 remain time 7, will be running for 2 sec
+Running: #29 for 2 sec ...
+Add: pid 29 into the queue with time 5
+Remove: pid: 22 from the queue index 2
+Q #1 >>> pid: 22 remain time 3, will be running for 2 sec
+Running: #22 for 2 sec ...
+Add: pid 22 into the queue with time 1
+Remove: pid: 4 from the queue index 2
+Q #1 >>> pid: 1 remain time 4, will be running for 2 sec
+Running: #1 for 2 sec ...
+Add: pid 1 into the queue with time 2
+Remove: pid: 29 from the queue index 2
+Q #1 >>> pid: 29 remain time 5, will be running for 2 sec
+Running: #29 for 2 sec ...
+Add: pid 29 into the queue with time 3
+Remove: pid: 22 from the queue index 2
+Q #1 >>> pid: 22 remain time 1, will be running for 1 sec
+Running: #22 for 1 sec ...
+Remove: pid: 1 from the queue index 1
+Q #1 >>> pid: 14 remain time 6, will be running for 2 sec
+Running: #14 for 2 sec ...
+Add: pid 14 into the queue with time 4
+Remove: pid: 29 from the queue index 1
+Q #1 >>> pid: 29 remain time 3, will be running for 2 sec
+Running: #29 for 2 sec ...
+Add: pid 29 into the queue with time 1
+Remove: pid: 14 from the queue index 1
+Q #1 >>> pid: 14 remain time 4, will be running for 2 sec
+Running: #14 for 2 sec ...
+Add: pid 14 into the queue with time 2
+Remove: pid: 29 from the queue index 1
+Q #1 >>> pid: 4 remain time 4, will be running for 2 sec
+Running: #4 for 2 sec ...
+Add: pid 4 into the queue with time 2
+Remove: pid: 14 from the queue index 1
+Q #1 >>> pid: 14 remain time 2, will be running for 2 sec
+Running: #14 for 2 sec ...
+Remove: pid: 4 from the queue index 0
+Q #1 >>> pid: 29 remain time 1, will be running for 1 sec
+Running: #29 for 1 sec ...
+Remove: pid: 10 from the queue index 9
+Q #1 >>> pid: 1 remain time 2, will be running for 2 sec
+Running: #1 for 2 sec ...
+
+Generate element 41/50, pid: 40, priority: 0
+Q #1 >>> pid: 4 remain time 2, will be running for 2 sec
+Running: #4 for 2 sec ...
+Q #2 >>> pid: 10 remain time 2, will be running for 2 sec
+Running: #10 for 2 sec ...
+Add: pid 40 into the queue with time 8
+Remove: pid: 40 from the queue index 0
+Q #0 >>> pid: 40 remain time 8, will be running for 2 sec
+Running: #40 for 2 sec ...
+Remove: pid: 12 from the queue index 8
+Remove: pid: 21 from the queue index 7
+
+Generate element 42/50, pid: 41, priority: 2
+Add: pid 40 into the queue with time 6
+Q #2 >>> pid: 12 remain time 3, will be running for 2 sec
+Running: #12 for 2 sec ...
+Add: pid 12 into the queue with time 1
+Q #2 >>> pid: 21 remain time 2, will be running for 2 sec
+Running: #21 for 2 sec ...
+Add: pid 41 into the queue with time 7
+
+Generate element 43/50, pid: 42, priority: 0
+Add: pid 42 into the queue with time 9
+
+Generate element 44/50, pid: 43, priority: 2
+Add: pid 43 into the queue with time 4
+Remove: pid: 40 from the queue index 1
+Q #0 >>> pid: 40 remain time 6, will be running for 2 sec
+Remove: pid: 42 from the queue index 0
+Running: #40 for 2 sec ...
+Remove: pid: 23 from the queue index 9
+
+Generate element 45/50, pid: 44, priority: 1
+Add: pid 40 into the queue with time 4
+Q #0 >>> pid: 42 remain time 9, will be running for 2 sec
+Running: #42 for 2 sec ...
+Add: pid 42 into the queue with time 7
+Q #2 >>> pid: 23 remain time 9, will be running for 2 sec
+Running: #23 for 2 sec ...
+Add: pid 23 into the queue with time 7
+Add: pid 44 into the queue with time 5
+Remove: pid: 40 from the queue index 1
+Q #0 >>> pid: 40 remain time 4, will be running for 2 sec
+Running: #40 for 2 sec ...
+Remove: pid: 42 from the queue index 0
+Remove: pid: 44 from the queue index 0
+Add: pid 40 into the queue with time 2
+Remove: pid: 40 from the queue index 0
+Q #0 >>> pid: 40 remain time 2, will be running for 2 sec
+Running: #40 for 2 sec ...
+Remove: pid: 26 from the queue index 9
+Q #1 >>> pid: 44 remain time 5, will be running for 2 sec
+Running: #44 for 2 sec ...
+
+Generate element 46/50, pid: 45, priority: 0
+Add: pid 44 into the queue with time 3
+Q #0 >>> pid: 42 remain time 7, will be running for 2 sec
+Running: #42 for 2 sec ...
+Add: pid 42 into the queue with time 5
+Q #2 >>> pid: 26 remain time 2, will be running for 2 sec
+Running: #26 for 2 sec ...
+Add: pid 45 into the queue with time 3
+Remove: pid: 42 from the queue index 1
+Q #0 >>> pid: 42 remain time 5, will be running for 2 sec
+Running: #42 for 2 sec ...
+Remove: pid: 45 from the queue index 0
+Remove: pid: 44 from the queue index 0
+
+Generate element 47/50, pid: 46, priority: 0
+Add: pid 42 into the queue with time 3
+Q #0 >>> pid: 45 remain time 3, will be running for 2 sec
+Running: #45 for 2 sec ...
+Add: pid 45 into the queue with time 1
+Q #1 >>> pid: 44 remain time 3, will be running for 2 sec
+Running: #44 for 2 sec ...
+Add: pid 44 into the queue with time 1
+Add: pid 46 into the queue with time 7
+
+Generate element 48/50, pid: 47, priority: 1
+Add: pid 47 into the queue with time 10
+
+Generate element 49/50, pid: 48, priority: 0
+Add: pid 48 into the queue with time 7
+Remove: pid: 42 from the queue index 3
+Q #0 >>> pid: 42 remain time 3, will be running for 2 sec
+Running: #42 for 2 sec ...
+Remove: pid: 45 from the queue index 2
+Remove: pid: 46 from the queue index 1
+
+Generate element 50/50, pid: 49, priority: 2
+Add: pid 42 into the queue with time 1
+Q #0 >>> pid: 45 remain time 1, will be running for 1 sec
+Running: #45 for 1 sec ...
+Q #0 >>> pid: 46 remain time 7, will be running for 2 sec
+Running: #46 for 2 sec ...
+Add: pid 46 into the queue with time 5
+Add: pid 49 into the queue with time 5
+
+Producer finished generating 50 jobs
+Remove: pid: 48 from the queue index 2
+Q #0 >>> pid: 48 remain time 7, will be running for 2 sec
+Running: #48 for 2 sec ...
+Remove: pid: 42 from the queue index 1
+Remove: pid: 46 from the queue index 0
+Add: pid 48 into the queue with time 5
+Remove: pid: 48 from the queue index 0
+Q #0 >>> pid: 48 remain time 5, will be running for 2 sec
+Running: #48 for 2 sec ...
+Add: pid 48 into the queue with time 3
+Remove: pid: 48 from the queue index 0
+Q #0 >>> pid: 48 remain time 3, will be running for 2 sec
+Running: #48 for 2 sec ...
+Add: pid 48 into the queue with time 1
+Remove: pid: 48 from the queue index 0
+Q #0 >>> pid: 48 remain time 1, will be running for 1 sec
+Running: #48 for 1 sec ...
+Remove: pid: 44 from the queue index 1
+Q #0 >>> pid: 46 remain time 5, will be running for 2 sec
+Running: #46 for 2 sec ...
+Add: pid 46 into the queue with time 3
+Remove: pid: 46 from the queue index 0
+Q #0 >>> pid: 46 remain time 3, will be running for 2 sec
+Running: #46 for 2 sec ...
+Add: pid 46 into the queue with time 1
+Q #1 >>> pid: 44 remain time 1, will be running for 1 sec
+Running: #44 for 1 sec ...
+Q #0 >>> pid: 42 remain time 1, will be running for 1 sec
+Running: #42 for 1 sec ...
+

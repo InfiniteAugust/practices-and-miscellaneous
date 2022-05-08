@@ -1,0 +1,355 @@
+initialising...
+Init: successfully malloc queue of size 10
+Generate element 1/50, pid: 0
+Add: pid 0 into the queue with time 4
+
+Generate element 2/50, pid: 1
+Add: pid 1 into the queue with time 8
+
+Generate element 3/50, pid: 2
+Add: pid 2 into the queue with time 4
+
+Generate element 4/50, pid: 3
+Add: pid 3 into the queue with time 7
+
+Generate element 5/50, pid: 4
+Add: pid 4 into the queue with time 10
+
+Generate element 6/50, pid: 5
+Add: pid 5 into the queue with time 3
+
+Generate element 7/50, pid: 6
+Add: pid 6 into the queue with time 1
+
+Generate element 8/50, pid: 7
+Add: pid 7 into the queue with time 4
+
+Generate element 9/50, pid: 8
+Add: pid 8 into the queue with time 1
+
+Generate element 10/50, pid: 9
+Add: pid 9 into the queue with time 3
+
+Remove: pid: 0 from the queue index 9
+Running: #0 for 4 sec ...
+created_time: 1544681763, start time: 1544681772, end time: 1544681776, response time: 9001, turnaround time: 13001
+
+Remove: pid: 1 from the queue index 8
+Running: #1 for 8 sec ...
+created_time: 1544681764, start time: 1544681776, end time: 1544681784, response time: 12001, turnaround time: 20001
+
+Remove: pid: 2 from the queue index 7
+Running: #2 for 4 sec ...
+created_time: 1544681765, start time: 1544681784, end time: 1544681788, response time: 19001, turnaround time: 23001
+
+Remove: pid: 3 from the queue index 6
+Running: #3 for 7 sec ...
+created_time: 1544681766, start time: 1544681788, end time: 1544681795, response time: 22001, turnaround time: 29008
+
+Remove: pid: 4 from the queue index 5
+Running: #4 for 10 sec ...
+created_time: 1544681767, start time: 1544681795, end time: 1544681805, response time: 28008, turnaround time: 38008
+
+Remove: pid: 5 from the queue index 4
+Running: #5 for 3 sec ...
+created_time: 1544681768, start time: 1544681805, end time: 1544681808, response time: 37008, turnaround time: 40008
+
+Remove: pid: 6 from the queue index 3
+Running: #6 for 1 sec ...
+created_time: 1544681769, start time: 1544681808, end time: 1544681809, response time: 39008, turnaround time: 40008
+
+Remove: pid: 7 from the queue index 2
+Running: #7 for 4 sec ...
+created_time: 1544681770, start time: 1544681809, end time: 1544681813, response time: 39008, turnaround time: 43008
+
+Remove: pid: 8 from the queue index 1
+Running: #8 for 1 sec ...
+created_time: 1544681771, start time: 1544681813, end time: 1544681814, response time: 42008, turnaround time: 43008
+
+Remove: pid: 9 from the queue index 0
+Running: #9 for 3 sec ...
+created_time: 0, start time: 1544681814, end time: 1544681817, response time: 1544681814858, turnaround time: 1544681817858
+
+Generate element 11/50, pid: 10
+Add: pid 10 into the queue with time 2
+
+Generate element 12/50, pid: 11
+Add: pid 11 into the queue with time 8
+
+Generate element 13/50, pid: 12
+Add: pid 12 into the queue with time 3
+
+Generate element 14/50, pid: 13
+Add: pid 13 into the queue with time 3
+
+Generate element 15/50, pid: 14
+Add: pid 14 into the queue with time 8
+
+Generate element 16/50, pid: 15
+Add: pid 15 into the queue with time 10
+
+Generate element 17/50, pid: 16
+Add: pid 16 into the queue with time 3
+
+Generate element 18/50, pid: 17
+Add: pid 17 into the queue with time 10
+
+Generate element 19/50, pid: 18
+Add: pid 18 into the queue with time 4
+
+Generate element 20/50, pid: 19
+Add: pid 19 into the queue with time 2
+
+Remove: pid: 10 from the queue index 9
+Running: #10 for 2 sec ...
+created_time: 1544681818, start time: 1544681827, end time: 1544681829, response time: 9011, turnaround time: 11011
+
+Remove: pid: 11 from the queue index 8
+Running: #11 for 8 sec ...
+created_time: 1544681819, start time: 1544681829, end time: 1544681837, response time: 10011, turnaround time: 18012
+
+Remove: pid: 12 from the queue index 7
+Running: #12 for 3 sec ...
+created_time: 1544681820, start time: 1544681837, end time: 1544681840, response time: 17012, turnaround time: 20012
+
+Remove: pid: 13 from the queue index 6
+Running: #13 for 3 sec ...
+created_time: 1544681821, start time: 1544681840, end time: 1544681843, response time: 19010, turnaround time: 22010
+
+Remove: pid: 14 from the queue index 5
+Running: #14 for 8 sec ...
+created_time: 1544681822, start time: 1544681843, end time: 1544681851, response time: 21010, turnaround time: 29010
+
+Remove: pid: 15 from the queue index 4
+Running: #15 for 10 sec ...
+created_time: 1544681823, start time: 1544681851, end time: 1544681861, response time: 28010, turnaround time: 38010
+
+Remove: pid: 16 from the queue index 3
+Running: #16 for 3 sec ...
+created_time: 1544681824, start time: 1544681861, end time: 1544681864, response time: 37010, turnaround time: 40010
+
+Remove: pid: 17 from the queue index 2
+Running: #17 for 10 sec ...
+created_time: 1544681825, start time: 1544681864, end time: 1544681874, response time: 39010, turnaround time: 49010
+
+Remove: pid: 18 from the queue index 1
+Running: #18 for 4 sec ...
+created_time: 1544681826, start time: 1544681874, end time: 1544681878, response time: 48010, turnaround time: 52010
+
+Remove: pid: 19 from the queue index 0
+Running: #19 for 2 sec ...
+created_time: 0, start time: 1544681878, end time: 1544681880, response time: 1544681878872, turnaround time: 1544681880872
+
+Generate element 21/50, pid: 20
+Add: pid 20 into the queue with time 10
+
+Generate element 22/50, pid: 21
+Add: pid 21 into the queue with time 2
+
+Generate element 23/50, pid: 22
+Add: pid 22 into the queue with time 5
+
+Generate element 24/50, pid: 23
+Add: pid 23 into the queue with time 9
+
+Generate element 25/50, pid: 24
+Add: pid 24 into the queue with time 6
+
+Generate element 26/50, pid: 25
+Add: pid 25 into the queue with time 4
+
+Generate element 27/50, pid: 26
+Add: pid 26 into the queue with time 2
+
+Generate element 28/50, pid: 27
+Add: pid 27 into the queue with time 7
+
+Generate element 29/50, pid: 28
+Add: pid 28 into the queue with time 3
+
+Generate element 30/50, pid: 29
+Add: pid 29 into the queue with time 7
+
+Remove: pid: 20 from the queue index 9
+Running: #20 for 10 sec ...
+created_time: 1544681881, start time: 1544681890, end time: 1544681900, response time: 9008, turnaround time: 19008
+
+Remove: pid: 21 from the queue index 8
+Running: #21 for 2 sec ...
+created_time: 1544681882, start time: 1544681900, end time: 1544681902, response time: 18008, turnaround time: 20008
+
+Remove: pid: 22 from the queue index 7
+Running: #22 for 5 sec ...
+created_time: 1544681883, start time: 1544681902, end time: 1544681907, response time: 19008, turnaround time: 24008
+
+Remove: pid: 23 from the queue index 6
+Running: #23 for 9 sec ...
+created_time: 1544681884, start time: 1544681907, end time: 1544681916, response time: 23008, turnaround time: 32008
+
+Remove: pid: 24 from the queue index 5
+Running: #24 for 6 sec ...
+created_time: 1544681885, start time: 1544681916, end time: 1544681922, response time: 31008, turnaround time: 37008
+
+Remove: pid: 25 from the queue index 4
+Running: #25 for 4 sec ...
+created_time: 1544681886, start time: 1544681922, end time: 1544681926, response time: 36008, turnaround time: 40008
+
+Remove: pid: 26 from the queue index 3
+Running: #26 for 2 sec ...
+created_time: 1544681887, start time: 1544681926, end time: 1544681928, response time: 39008, turnaround time: 41008
+
+Remove: pid: 27 from the queue index 2
+Running: #27 for 7 sec ...
+created_time: 1544681888, start time: 1544681928, end time: 1544681935, response time: 40008, turnaround time: 47008
+
+Remove: pid: 28 from the queue index 1
+Running: #28 for 3 sec ...
+created_time: 1544681889, start time: 1544681935, end time: 1544681938, response time: 46006, turnaround time: 49006
+
+Remove: pid: 29 from the queue index 0
+Running: #29 for 7 sec ...
+created_time: 0, start time: 1544681938, end time: 1544681945, response time: 1544681938893, turnaround time: 1544681945893
+
+Generate element 31/50, pid: 30
+Add: pid 30 into the queue with time 6
+
+Generate element 32/50, pid: 31
+Add: pid 31 into the queue with time 5
+
+Generate element 33/50, pid: 32
+Add: pid 32 into the queue with time 7
+
+Generate element 34/50, pid: 33
+Add: pid 33 into the queue with time 7
+
+Generate element 35/50, pid: 34
+Add: pid 34 into the queue with time 4
+
+Generate element 36/50, pid: 35
+Add: pid 35 into the queue with time 5
+
+Generate element 37/50, pid: 36
+Add: pid 36 into the queue with time 3
+
+Generate element 38/50, pid: 37
+Add: pid 37 into the queue with time 5
+
+Generate element 39/50, pid: 38
+Add: pid 38 into the queue with time 5
+
+Generate element 40/50, pid: 39
+Add: pid 39 into the queue with time 4
+
+Remove: pid: 30 from the queue index 9
+Running: #30 for 6 sec ...
+created_time: 1544681946, start time: 1544681955, end time: 1544681961, response time: 9011, turnaround time: 15011
+
+Remove: pid: 31 from the queue index 8
+Running: #31 for 5 sec ...
+created_time: 1544681947, start time: 1544681961, end time: 1544681966, response time: 14011, turnaround time: 19011
+
+Remove: pid: 32 from the queue index 7
+Running: #32 for 7 sec ...
+created_time: 1544681948, start time: 1544681966, end time: 1544681973, response time: 18011, turnaround time: 25011
+
+Remove: pid: 33 from the queue index 6
+Running: #33 for 7 sec ...
+created_time: 1544681949, start time: 1544681973, end time: 1544681980, response time: 24011, turnaround time: 31011
+
+Remove: pid: 34 from the queue index 5
+Running: #34 for 4 sec ...
+created_time: 1544681950, start time: 1544681980, end time: 1544681984, response time: 30010, turnaround time: 34010
+
+Remove: pid: 35 from the queue index 4
+Running: #35 for 5 sec ...
+created_time: 1544681951, start time: 1544681984, end time: 1544681989, response time: 33010, turnaround time: 38011
+
+Remove: pid: 36 from the queue index 3
+Running: #36 for 3 sec ...
+created_time: 1544681952, start time: 1544681989, end time: 1544681992, response time: 37011, turnaround time: 40011
+
+Remove: pid: 37 from the queue index 2
+Running: #37 for 5 sec ...
+created_time: 1544681953, start time: 1544681992, end time: 1544681997, response time: 39011, turnaround time: 44014
+
+Remove: pid: 38 from the queue index 1
+Running: #38 for 5 sec ...
+created_time: 1544681954, start time: 1544681997, end time: 1544682002, response time: 43014, turnaround time: 48014
+
+Remove: pid: 39 from the queue index 0
+Running: #39 for 4 sec ...
+created_time: 0, start time: 1544682002, end time: 1544682006, response time: 1544682002914, turnaround time: 1544682006914
+
+Generate element 41/50, pid: 40
+Add: pid 40 into the queue with time 8
+
+Generate element 42/50, pid: 41
+Add: pid 41 into the queue with time 7
+
+Generate element 43/50, pid: 42
+Add: pid 42 into the queue with time 9
+
+Generate element 44/50, pid: 43
+Add: pid 43 into the queue with time 4
+
+Generate element 45/50, pid: 44
+Add: pid 44 into the queue with time 5
+
+Generate element 46/50, pid: 45
+Add: pid 45 into the queue with time 3
+
+Generate element 47/50, pid: 46
+Add: pid 46 into the queue with time 7
+
+Generate element 48/50, pid: 47
+Add: pid 47 into the queue with time 10
+
+Generate element 49/50, pid: 48
+Add: pid 48 into the queue with time 7
+
+Generate element 50/50, pid: 49
+Add: pid 49 into the queue with time 5
+
+Remove: pid: 40 from the queue index 9
+Running: #40 for 8 sec ...
+created_time: 1544682007, start time: 1544682016, end time: 1544682024, response time: 9003, turnaround time: 17004
+
+Remove: pid: 41 from the queue index 8
+Running: #41 for 7 sec ...
+created_time: 1544682008, start time: 1544682024, end time: 1544682031, response time: 16004, turnaround time: 23005
+
+Remove: pid: 42 from the queue index 7
+Running: #42 for 9 sec ...
+created_time: 1544682009, start time: 1544682031, end time: 1544682040, response time: 22004, turnaround time: 31004
+
+Remove: pid: 43 from the queue index 6
+Running: #43 for 4 sec ...
+created_time: 1544682010, start time: 1544682040, end time: 1544682044, response time: 30003, turnaround time: 34003
+
+Remove: pid: 44 from the queue index 5
+Running: #44 for 5 sec ...
+created_time: 1544682011, start time: 1544682044, end time: 1544682049, response time: 33003, turnaround time: 38003
+
+Remove: pid: 45 from the queue index 4
+Running: #45 for 3 sec ...
+created_time: 1544682012, start time: 1544682049, end time: 1544682052, response time: 37003, turnaround time: 40003
+
+Remove: pid: 46 from the queue index 3
+Running: #46 for 7 sec ...
+created_time: 1544682013, start time: 1544682052, end time: 1544682059, response time: 39003, turnaround time: 46003
+
+Remove: pid: 47 from the queue index 2
+Running: #47 for 10 sec ...
+created_time: 1544682014, start time: 1544682059, end time: 1544682069, response time: 45003, turnaround time: 55004
+
+Remove: pid: 48 from the queue index 1
+Running: #48 for 7 sec ...
+created_time: 1544682015, start time: 1544682069, end time: 1544682076, response time: 54004, turnaround time: 61004
+
+Remove: pid: 49 from the queue index 0
+Running: #49 for 5 sec ...
+created_time: 0, start time: 1544682076, end time: 1544682081, response time: 1544682076921, turnaround time: 1544682081921
+
+Average response time: 154468220928.00 milliseconds
+Average turn around time: 154468220928.00 milliseconds
+

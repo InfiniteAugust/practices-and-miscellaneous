@@ -1,0 +1,103 @@
+initialising...
+Init: successfully malloc queue of size 5
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+performing FIFO...
+Add: pid 0 into the queue with time 4
+Add: pid 1 into the queue with time 8
+Add: pid 2 into the queue with time 4
+Add: pid 3 into the queue with time 7
+Add: pid 4 into the queue with time 10
+There are 5 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544349374 sec 855828 usec, 1 priority
+#[1]: pid: 3 running time: 7, created time: 1544349373 sec 855724 usec, 0 priority
+#[2]: pid: 2 running time: 4, created time: 1544349372 sec 855592 usec, 1 priority
+#[3]: pid: 1 running time: 8, created time: 1544349371 sec 855472 usec, 1 priority
+#[4]: pid: 0 running time: 4, created time: 1544349370 sec 855350 usec, 1 priority
+Remove: pid: 0 from the queue index 4
+There are 4 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544349374 sec 855828 usec, 1 priority
+#[1]: pid: 3 running time: 7, created time: 1544349373 sec 855724 usec, 0 priority
+#[2]: pid: 2 running time: 4, created time: 1544349372 sec 855592 usec, 1 priority
+#[3]: pid: 1 running time: 8, created time: 1544349371 sec 855472 usec, 1 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 1 from the queue index 3
+There are 3 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544349374 sec 855828 usec, 1 priority
+#[1]: pid: 3 running time: 7, created time: 1544349373 sec 855724 usec, 0 priority
+#[2]: pid: 2 running time: 4, created time: 1544349372 sec 855592 usec, 1 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 2 from the queue index 2
+There are 2 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544349374 sec 855828 usec, 1 priority
+#[1]: pid: 3 running time: 7, created time: 1544349373 sec 855724 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 3 from the queue index 1
+There are 1 processes in total
+#[0]: pid: 4 running time: 10, created time: 1544349374 sec 855828 usec, 1 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 4 from the queue index 0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+
+performing LIFO...
+Add: pid 5 into the queue with time 3
+Add: pid 6 into the queue with time 1
+Add: pid 7 into the queue with time 4
+Add: pid 8 into the queue with time 1
+Add: pid 9 into the queue with time 3
+There are 5 processes in total
+#[0]: pid: 5 running time: 3, created time: 1544349375 sec 856019 usec, 1 priority
+#[1]: pid: 6 running time: 1, created time: 1544349376 sec 856125 usec, 1 priority
+#[2]: pid: 7 running time: 4, created time: 1544349377 sec 856258 usec, 1 priority
+#[3]: pid: 8 running time: 1, created time: 1544349378 sec 856383 usec, 0 priority
+#[4]: pid: 9 running time: 3, created time: 1544349379 sec 856516 usec, 1 priority
+Remove: pid: 9 from the queue index 4
+There are 4 processes in total
+#[0]: pid: 5 running time: 3, created time: 1544349375 sec 856019 usec, 1 priority
+#[1]: pid: 6 running time: 1, created time: 1544349376 sec 856125 usec, 1 priority
+#[2]: pid: 7 running time: 4, created time: 1544349377 sec 856258 usec, 1 priority
+#[3]: pid: 8 running time: 1, created time: 1544349378 sec 856383 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 8 from the queue index 3
+There are 3 processes in total
+#[0]: pid: 5 running time: 3, created time: 1544349375 sec 856019 usec, 1 priority
+#[1]: pid: 6 running time: 1, created time: 1544349376 sec 856125 usec, 1 priority
+#[2]: pid: 7 running time: 4, created time: 1544349377 sec 856258 usec, 1 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 7 from the queue index 2
+There are 2 processes in total
+#[0]: pid: 5 running time: 3, created time: 1544349375 sec 856019 usec, 1 priority
+#[1]: pid: 6 running time: 1, created time: 1544349376 sec 856125 usec, 1 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 6 from the queue index 1
+There are 1 processes in total
+#[0]: pid: 5 running time: 3, created time: 1544349375 sec 856019 usec, 1 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+Remove: pid: 5 from the queue index 0
+There are 0 processes in total
+#[0]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[1]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[2]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[3]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
+#[4]: pid: 0 running time: 0, created time: 0 sec 0 usec, 0 priority
