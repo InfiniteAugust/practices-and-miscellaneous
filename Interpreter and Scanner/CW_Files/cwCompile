@@ -1,0 +1,6 @@
+#!/bin/sh
+################################################
+# Should be clear what it's doing
+alex FP_Scanner.x -o FP_Scanner.hs
+happy FP_TXLInterpreter.y -o FP_TXLInterpreter.hs
+ghc FP_TXLInterpreter.hs -o FP_TXLInterpreter
